@@ -1,7 +1,7 @@
 {
   "name": "nemessage",
   "version": "0.1.0",
-  "homepage": "https://y-temp4.github.io/nemessage",
+  "homepage": "http://y-temp4.com/nemessage",
   "private": true,
   "dependencies": {
     "copy-to-clipboard": "^3.0.8",
