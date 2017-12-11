@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: meiryo, sans-serif;
+  color: #343a40;
+}
+
+a {
+  color: #329af0;
+}
+
+a:visited {
+  color: #329af0;
+}

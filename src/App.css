@@ -1,0 +1,100 @@
+body {
+  background: #f8f9fa;
+}
+
+.header {
+  text-align: center;
+  background-color: white;
+  padding: .5em;
+  word-wrap: break-word;
+}
+
+.title {
+  font-weight: bold;
+  color: #212529;
+}
+
+.orange {
+  color: #f7a800;
+}
+
+.blue {
+  color: #67b2e7;
+}
+
+.green {
+  color: #00c4b3;
+}
+
+.message-overview {
+  background: white;
+  list-style: none;
+  padding: .5em 1em;
+  margin: 2em 0;
+  font-weight: bold;
+  border: solid 2px #343a40;
+  word-wrap: break-word;
+}
+
+.message {
+  margin-top: .6em;
+}
+
+.message-box {
+  background: white;
+  padding: .5em 2em;
+  margin: 2em 0;
+  font-weight: bold;
+  border: solid 3px #343a40;
+  word-wrap: break-word;
+}
+
+.message-box-inner-message {
+  font-size: 2em;
+}
+
+.main {
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 1em;
+}
+
+.rich {
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+}
+
+.rainbow {
+  box-shadow :
+    0 0 0 .5em #67b2e7,
+    0 0 0 1em #00c4b3,
+    0 0 0 1.5em #f7a800;
+  border: none;
+  margin: 1.5em 1.5em 3em;
+}
+
+.button {
+    font-size: 13px;
+    padding: .25em .5em;
+    text-decoration: none;
+    color: white;
+    background: #67b2e7;
+    border: none;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+    text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+    margin: 0 .5em 1em;
+}
+
+.button:active {
+  border: none;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+.small {
+  font-size: 14px;
+}
+
+.qr-area img {
+  width: 250px;
+}
