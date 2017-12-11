@@ -174,6 +174,12 @@ class App extends Component {
             <p className="message-box-inner-message">{message}</p>
             </div>
             <a href="#TOP" onClick={() => this.reset()}>トップに戻る</a>
+            <a
+              href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(window.location.href)}&text=${encodeURIComponent('NEMessageでメッセージを確認しよう！')}&hashtags=NEMessage`}
+              className="tweet"
+            >
+              ツイートする
+            </a>
           </section>
         }
       </div>

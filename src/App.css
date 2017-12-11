@@ -98,3 +98,7 @@ body {
 .qr-area img {
   width: 250px;
 }
+
+.tweet {
+  margin-left: .5em;
+}
